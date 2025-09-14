@@ -1,0 +1,85 @@
+body{
+  margin:0;
+  font-family: 'roboto', sans-serif;
+  background-image: url('https://images.wallpapersden.com/image/download/night-king-and-dragon_a2ltaWeUmZqaraWkpJRmbmdlrWZlbWU.jpg');
+ background-size: cover;
+  color: #d4af37;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+header{
+  text-align: center;
+  margin-top: 40px;
+  font-family:roboto,'cinzel';
+}
+.registration-form{
+  background: rgba(28, 28, 28, 0.85);
+  padding: 25px 35px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  margin-top: 30px;
+
+}
+.registration-form label {
+  font-size: 0.9rem;
+  display: block;
+  margin: 10px 0 5px;
+  font-family: 'Cinzel', serif;
+  color: #d4af37;
+}
+.registration-form input ,.registration-form select{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  color: #d4af37;
+  background-color: rgb(32, 21, 21);
+  
+}
+.row{
+  display: flex;
+  gap:10px;
+}
+.check{
+   margin: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #d4af37, #8b0000);
+  color: #fff;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover{
+  background: linear-gradient(90deg, #8b0000, #d4af37);
+}
+footer{
+  text-align: center;
+  margin-top:auto;
+  padding:20px;
+  font-size:1.1rem;
+  color:#d4af37;
+  letter-spacing: 2px;
+   font-family: 'Cinzel', serif;
+}
+@media (max-width: 480px) {
+  header h1 { font-size: 1.5rem; }
+  .row { flex-direction: column; }
+}
+
+
+
